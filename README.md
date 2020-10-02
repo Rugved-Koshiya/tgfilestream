@@ -10,8 +10,8 @@ A reverse proxy is recommended to add TLS. When using a reverse proxy, keep
 should include the protocol, e.g. `https://example.com`.
 
 ### Environment variables
-* `TG_API_ID` (required) - Your Telegram API ID. Get From https://my.telegram.org/apps
-* `TG_API_HASH` (required) - Your Telegram API hash. Get From https://my.telegram.org/apps
+* `TG_API_ID` (required) - Your Telegram API ID. Get From my.telegram.org/apps
+* `TG_API_HASH` (required) - Your Telegram API hash. Get From my.telegram.org/apps
 * `PORT` (defaults to `8080`) - The port to listen at.
 * `HOST` (defaults to `localhost`) - The host to listen at.
 * `PUBLIC_URL` (defaults to `http://localhost:8080`) - The prefix for links that the bot gives.
